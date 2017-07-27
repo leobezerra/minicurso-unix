@@ -51,6 +51,7 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 1. Crie um pacote **tar** com compressão de arquivos XZ chamado *minicursos.tar.xz*, contendo o diretório *minicursos*.
 1. Crie um pacote comprimido Zip chamado *minicursos.zip*, contendo o diretório *minicursos*.
 1. Compare o tamanho dos diferentes arquivos de nome-base *minicursos*.
+
 **Dica --** para ver o tamanho de um arquivo, use uma das opções do comando **ls**. Para ver o tamanho de um diretório, consulte o manual do comando **du**.
 
 ### <a name="seeking">Busca</a>
@@ -60,6 +61,7 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 1. Localize o arquivo cujo nome contenha a palavra *exemplo*.
 1. Filtre a lista de ocorrências encontradas no item acima para mostrar apenas arquivos cuja extensão seja **txt**.
 1. Busque, em todas as ocorrências encontradas no item acima, a palavra "*Este*".
+
 **Dica --** para executar o item 5, utilize o comando **xargs**.
 
 ### <a name="manip">Manipulação de arquivos</a>
@@ -67,7 +69,8 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 1. Usando o arquivo *arquivo2* contido no diretório *minicursos* como base, gere um arquivo de nome *recortado.txt* no subdiretório *unix* contendo a frase "*Este é o 2.*".
 1. Usando o arquivo *arquivo2* contido no diretório *minicursos* como base, gere um arquivo de nome *esfacelado.txt* no subdiretório *unix* contendo a frase "*Este arquivo*".
 1. Usando o arquivo *arquivo2* contido no diretório *minicursos* como base, gere um arquivo de nome *tabulado.txt* no subdiretório *unix*, contendo o mesmo conteúdo de *arquivo2*, porém com separação de palavras por tabulação em vez de espaço.
-**Extra --** para executar o item 3, utilize o comando **tr**.
+
+**Dica --** para executar o item 3, utilize o comando **tr**.
 
 ### <a name="processes">Processos</a>
 
