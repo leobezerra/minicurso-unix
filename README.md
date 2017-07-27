@@ -9,11 +9,11 @@ Este minicurso foi pensado para ajudar quem precisa de sistemas UNIX no dia a di
 
 O minicurso consiste de um roteiro prático de exercícios e de slides de consulta.
 
----
-
 O roteiro de exercícios está disponível em dois formatos: Markdown, que pode ser visualizado no browser, ou PDF, configurado para impressão.
 
-Escolha a versão que você prefere:
+---
+
+### Escolha a versão que você prefere:
 
 * [Versão web](html)
 * [Versão offline](unix.tar.gz)
