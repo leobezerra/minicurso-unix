@@ -13,7 +13,7 @@ O roteiro de exercícios está disponível em dois formatos: Markdown, que pode 
 
 ---
 
-### Escolha a versão que você prefere:
+### Escolha uma versão:
 
 * [Versão web](html)
 * [Versão offline](unix.tar.gz)
