@@ -3,7 +3,13 @@
 
 ---
 
-Bem vindo a este minicurso de UNIX.
+Bem vindo!
 
-* [Visualizar o minicurso no navegador](html) (Markdown)
-* [Baixar os arquivos do minicurso](unix.tar.gz)
+Este minicurso foi pensado para ajudar quem precisa de sistemas UNIX no dia a dia. 
+
+O minicurso consiste de um roteiro prático de exercícios e de slides de consulta.
+
+O roteiro de exercícios está disponível em dois formatos: Markdown, que pode ser visualizado no browser, ou PDF, configurado para impressão:
+
+* [Versão web](html)
+* [Versão para impressão](unix.tar.gz)

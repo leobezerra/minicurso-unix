@@ -12,6 +12,8 @@ Abaixo você encontrará a descrição de uma série de tarefas triviais present
 1. [Permissões](#permissions)
 1. [Executáveis](#running)
 
+Os slides que resumem os comandos mais utilizados do UNIX por tópico estão disponíveis [neste link](keynote/handouts.pdf).
+
 Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a tabela de comandos úteis encontrada neste [link](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/).
 
 --
