@@ -16,7 +16,7 @@ Os slides que resumem os comandos mais utilizados do UNIX por tópico estão dis
 
 Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a tabela de comandos úteis encontrada neste [link](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/).
 
---
+---
 
 ### <a name="dirs">Diretórios</a>
 
