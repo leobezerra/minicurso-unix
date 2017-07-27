@@ -3,7 +3,7 @@
 
 ---
 
-#Bem vindo!#
+# Bem vindo!
 
 Este minicurso foi pensado para ajudar quem precisa de sistemas UNIX no dia a dia. 
 
