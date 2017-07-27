@@ -1,0 +1,32 @@
+Bem vindo ao minicurso de UNIX!
+
+Este é um minicurso piloto, com o objetivo de te ajudar a entender melhor sistemas UNIX e suas principais ferramentas.
+
+Neste minicurso, você entenderá como o sistema de arquivos do Linux é estruturado em diretórios e aprenderá a usar as seguintes ferramentas:
+- pwd
+- mkdir
+- cd
+- ls
+- touch
+- rm
+- cp
+- mv
+- ln
+- cat
+- less
+- head
+- tail
+- diff
+- gzip
+- tar
+- zip
+- grep
+- find
+- cut
+- sed
+- ps
+- kill
+
+Para aprender a usar essas ferramentas, use este arquivo de teste para executar o roteiro básico disponibilizado no SIGAA.
+
+Lembre-se: quem testa os comandos aprende muito mais do que quem só assiste a uma palestra ou lê manuais.

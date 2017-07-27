@@ -1,0 +1,186 @@
+%!TEX encoding = UTF-8
+\documentclass[a4paper,10pt,titlepage,twosided]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath}
+\usepackage{array}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+%\usepackage{subfig}
+\usepackage{lscape}
+\usepackage{xspace}
+\usepackage{setspace}
+\usepackage{scale}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+\usepackage{pdflscape}
+\usepackage{subfig}
+\usepackage{array}
+\usepackage[sort&compress, numbers]{natbib}
+\usepackage{changepage}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{soul}
+\usepackage{verbatimbox}
+\usepackage{chngcntr}
+\counterwithout{section}{chapter}
+
+\usepackage[portuguese, english]{babel}
+%\usepackage{anysize}
+%\marginsize{0cm}{0cm}{0cm}{0cm}
+\usepackage[tmargin=2cm,rmargin=2.8cm,lmargin=1cm, bmargin=3cm]{geometry}
+\usepackage[Sonny]{fncychap}
+\usepackage{drop}
+
+ \ChTitleVar{\LARGE\sffamily\bfseries}
+%    \ChRuleWidth{0.5pt}
+    
+\let\origdoublepage\cleardoublepage
+\newcommand{\clearemptydoublepage}{%
+  \clearpage
+  {\pagestyle{empty}\origdoublepage}%
+}
+
+\newtheorem{definition}{Definition}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+%\newcommand{\drop}[1]{{\fontsize{5cm}{1em}\selectfont\textsf #1}}
+
+\pagestyle{myheadings}
+\usepackage{geometry}
+%\geometry{bindingoffset=1cm}
+\setlength{\evensidemargin}{-2cm}
+\setlength{\oddsidemargin}{-1cm}
+%\let\tmp\oddsidemargin
+%\let\oddsidemargin\evensidemargin
+%\let\evensidemargin\tmp
+%\reversemarginpar
+
+\title{Minicurso de UNIX}
+\author{Leonardo Bezerra}
+\begin{document}
+
+\newcommand{\rights}{\footnote{Autor: Leonardo Bezerra.}}
+
+\definecolor{light-green}{RGB}{234, 247, 178}
+\sethlcolor{light-green}
+\newcommand{\gmm}{\texttt{g++}\xspace}
+\newcommand{\git}{\texttt{git}\xspace}
+
+\newenvironment{code}
+{\verbbox}
+{\endverbbox\par\bigskip\colorbox{light-green}{\parbox{\textwidth}{\theverbbox}}\par}
+
+\newenvironment{incode}
+{\verbbox}
+{\endverbbox\par\colorbox{light-green}{\parbox{\textwidth}{\theverbbox}}\par}
+
+\setcounter{page}{1}
+\setcounter{chapter}{1}
+\chapter*{Minicurso de UNIX\rights}
+
+\section{Roteiro básico}
+
+Abaixo você encontrará a descrição de uma série de tarefas triviais presentes no cotidiano de quem trabalha com sistemas UNIX. Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a tabela de comandos úteis encontrada neste link: \url{http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/}.
+
+\subsubsection{Diretórios}
+
+\begin{enumerate}
+\medskip
+\item Abra o terminal e verifique em qual pasta ele é inicializado. 
+\item Crie um diretório \textsf{minicursos} e um subdiretório \textsf{unix}.
+\item Use o comando \texttt{ls} para verificar que o diretório e o subdiretório foram criados.
+\item[] \textbf{Extra -- é possível criar um diretório e seu subdiretório com apenas uma chamada ao comando \texttt{mkdir}. Também é possível listar um diretório recursivamente utilizando o comando \texttt{ls}.}
+\end{enumerate}
+
+\subsubsection{Arquivos}
+
+\begin{enumerate}
+\medskip
+\item Com o auxílio de um editor de texto, crie dois arquivos de nome \textsf{arquivo1.txt} e \textsf{arquivo2}, contendo, respectivamente, as frases ``\emph{Este é o arquivo 1.}" e ``\emph{Este é o arquivo 2.}".
+\item Mova ambos os arquivos para o diretório \textsf{minicursos}.
+\item Crie um arquivo vazio \textsf{vazio.txt} no subdiretório \textsf{unix}.
+\item Copie o arquivo \textsf{arquivo2} para o subdiretório \textsf{unix}.
+\item Renomeie o arquivo \textsf{arquivo2} contido no subdiretório \textsf{unix} para \textsf{nao-vazio}.
+\end{enumerate}
+
+\subsubsection{Arquivos e fluxos}
+
+\begin{enumerate}
+\medskip
+\item Baixe o arquivo \textsf{exemplo.in} disponibilizado no SIGAA.
+\item Crie um link simbólico chamado \textsf{exemplo} na pasta minicursos para o arquivo baixado no item anterior.
+\item Visualize o conteúdo de \textsf{exemplo} sem usar um editor de texto.
+\item Sem usar um editor de texto, copie as 5 primeiras linhas do arquivo apontado por \textsf{exemplo} para um novo arquivo \textsf{mini-exemplo.txt}, que deve ser criado dentro do subdiretório \textsf{unix}.
+\item Sem usar um editor de texto, adicione as 5 últimas linhas do arquivo apontado por \textsf{exemplo} ao arquivo \textsf{mini-exemplo.txt}.
+\item Gere um arquivo \textsf{mini-exemplo2.txt} idêntico ao arquivo \textsf{mini-exemplo.txt} sem usar os comandos \texttt{cp}, \texttt{mv}, \texttt{head}, \texttt{tail} ou um editor de texto. Assegure que os arquivos sejam idênticos sem usar um editor de texto.
+\end{enumerate}
+
+\subsubsection{Compressão de arquivos}
+
+\begin{enumerate}
+\medskip
+\item Comprima o arquivo \textsf{mini-exemplo.txt} usando compressão Gzip.
+\item Compare os tamanhos dos arquivos \textsf{mini-exemplo.txt.gz} e \textsf{mini-exemplo2.txt}.
+\item Acesse o diretório pai do diretório \textsf{minicursos}.
+\item Crie um pacote \textsf{tar} sem compressão chamado \textsf{minicursos.tar}, contendo o diretório \textsf{minicursos}.
+\item Crie um pacote \textsf{tar} com compressão de arquivos Gzip chamado \textsf{minicursos.tar.gz}, contendo o diretório \textsf{minicursos}.
+\item Crie um pacote \textsf{tar} com compressão de arquivos XZ chamado \textsf{minicursos.tar.xz}, contendo o diretório \textsf{minicursos}.
+\item Crie um pacote comprimido Zip chamado \textsf{minicursos.zip}, contendo o diretório \textsf{minicursos}.
+\item Compare o tamanho dos diferentes arquivos de nome-base \textsf{minicursos}.
+\item[] \textbf{Extra -- para ver o tamanho de um arquivo, use uma das opções do comando \texttt{ls}. Para ver o tamanho de um diretório, consulte o manual do comando \texttt{du}.}
+\end{enumerate}
+
+\subsubsection{Busca}
+
+\begin{enumerate}
+\medskip
+\item Busque no arquivo exemplo as palavras ``\emph{teste}" e ``\emph{testa}", sem usar um editor de texto.
+\item Acesse sua pasta home (não confunda com o diretório \texttt{/home}).
+\item Localize o arquivo cujo nome contenha a palavra \textsf{exemplo}.
+\item Filtre a lista de ocorrências encontradas no item acima para mostrar apenas arquivos cuja extensão seja \texttt{txt}.
+\item Busque, em todas as ocorrências encontradas no item acima, a palavra ``\emph{Este}".
+\item[] \textbf{Extra -- para executar o item 5, utilize o comando \texttt{xargs}.}
+\end{enumerate}
+
+\subsubsection{Manipulação de arquivos}
+
+\begin{enumerate}
+\medskip
+\item Usando o arquivo \textsf{arquivo2} contido no diretório \textsf{minicursos} como base, gere um arquivo de nome \textsf{recortado.txt} no subdiretório \textsf{unix} contendo a frase ``\emph{Este é o 2.}".
+\item Usando o arquivo \textsf{arquivo2} contido no diretório \textsf{minicursos} como base, gere um arquivo de nome \textsf{esfacelado.txt} no subdiretório \textsf{unix} contendo a frase ``\emph{Este arquivo}".
+\item Usando o arquivo \textsf{arquivo2} contido no diretório \textsf{minicursos} como base, gere um arquivo de nome \textsf{tabulado.txt} no subdiretório \textsf{unix}, contendo o mesmo conteúdo de \textsf{arquivo2}, porém com separação de palavras por tabulação em vez de espaço.
+\item[] \textbf{Extra -- para executar o item 3, utilize o comando \texttt{tr}.}
+\end{enumerate}
+
+\subsubsection{Processos}
+
+\begin{enumerate}
+\medskip
+\item Abra um editor de texto de sua preferência.
+\item Identifique o código de processo da instância aberta do editor de texto.
+\item Mate a instância aberta do editor de texto.
+\end{enumerate}
+
+\subsubsection{Permissões}
+
+\begin{enumerate}
+\medskip
+\item Crie um arquivo de nome \textsf{arquivo\_restrito} e configure suas permissões para que ninguém possa utilizá-lo para leitura, escrita ou execução. Verifique se você consegue realizar alguma destas operações.
+\item Crie um diretório de nome \textsf{dir\_restrito} e configure suas permissões para que ninguém possa visualizar seu conteúdo. Verifique se você consegue visualizar seu conteúdo após esta operação.
+\item Altere as permissões do diretório \textsf{dir\_restrito} para que seu proprietário (você) possa navegá-lo, mas não possa criar arquivos nele.
+\end{enumerate}
+
+\subsubsection{Executáveis}
+
+\begin{enumerate}
+\item Baixe o arquivo \textsf{exemplo.sh}, disponível no SIGAA. Configure suas permissões para que você possa executá-lo. Teste sua execução.
+\item Configure a variável \texttt{PATH} para poder executar o script acima sem precisar digitar seu caminho. Faça esta configuração de forma que apenas a sessão em uso do terminal tenha sua configuração alterada.
+\item Inicie uma nova sessão do terminal (nova aba ou janela) e configure a variável \texttt{PATH} para poder executar o script acima sem precisar digitar seu caminho, mas de forma que qualquer nova sessão do terminal seja afetada. Teste esta configuração na tela já em uso do terminal e também em uma nova janela.
+\end{enumerate}
+
+\end{document}
+
+
