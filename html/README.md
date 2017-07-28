@@ -1,6 +1,18 @@
 ## Roteiro básico
 
-Abaixo você encontrará a descrição de uma série de tarefas triviais presentes no cotidiano de quem trabalha com sistemas UNIX, organizados por tópicos:
+Abaixo você encontrará a descrição de uma série de tarefas triviais presentes no cotidiano de quem trabalha com sistemas UNIX, organizados por tópicos.
+
+Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a tabela de comandos úteis encontrada neste [link](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/).
+
+---
+
+Os slides que resumem os comandos mais utilizados do UNIX por tópico estão disponíveis [neste link](../keynote/handouts.pdf).
+
+<a href="slides">
+<iframe src="//slides.com/leobezerra/deck/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</a>
+
+Utilize os links abaixo para navegar pelos exercícios.
 
 1. [Diretórios](#dirs)
 1. [Arquivos](#files)
@@ -12,12 +24,6 @@ Abaixo você encontrará a descrição de uma série de tarefas triviais present
 1. [Permissões](#permissions)
 1. [Executáveis](#running)
 
-Os slides que resumem os comandos mais utilizados do UNIX por tópico estão disponíveis [neste link](../keynote/handouts.pdf).
-
-<iframe src="//slides.com/leobezerra/deck/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a tabela de comandos úteis encontrada neste [link](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/).
-
 ---
 
 ### <a name="dirs">Diretórios</a>
@@ -27,6 +33,8 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 1. Use o comando **ls** para verificar que o diretório e o subdiretório foram criados.
 
 **Dica** -- é possível criar um diretório e seu subdiretório com apenas uma chamada ao comando **mkdir**. Também é possível listar um diretório recursivamente utilizando o comando **ls**.
+
+[Voltar para os slides](#slides)
 
 ### <a name="files">Arquivos</a>
 
