@@ -11,6 +11,10 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 Os slides que descrevem brevemente os comandos apresentados neste minicurso podem ser vistos abaixo, ou baixados [neste link](../keynote/handouts.pdf).
 <iframe src="//slides.com/leobezerra/deck/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+---
+
+## Índice 
+
 Utilize os links abaixo para navegar pelos exercícios.
 
 1. [Diretórios](#dirs)
