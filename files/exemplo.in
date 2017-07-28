@@ -22,6 +22,9 @@ Neste minicurso, você entenderá como o sistema de arquivos do Linux é estrutu
 - zip
 - grep
 - find
+- sort
+- unique
+- wc
 - cut
 - sed
 - ps

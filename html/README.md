@@ -12,7 +12,7 @@ Abaixo você encontrará a descrição de uma série de tarefas triviais present
 1. [Permissões](#permissions)
 1. [Executáveis](#running)
 
-Os slides que resumem os comandos mais utilizados do UNIX por tópico estão disponíveis [neste link](keynote/handouts.pdf).
+Os slides que resumem os comandos mais utilizados do UNIX por tópico estão disponíveis [neste link](../keynote/handouts.pdf).
 
 Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a tabela de comandos úteis encontrada neste [link](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/).
 
@@ -66,11 +66,13 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 
 **Dica --** para executar o item 5, utilize o comando **xargs**.
 
-### <a name="manip">Manipulação de arquivos</a>
+### <a name="manip">Manipulação de fluxos</a>
 
 1. Usando o arquivo **arquivo2** contido no diretório **minicursos** como base, gere um arquivo de nome **recortado.txt** no subdiretório **unix** contendo a frase "*Este é o 2.*".
 1. Usando o arquivo **arquivo2** contido no diretório **minicursos** como base, gere um arquivo de nome **esfacelado.txt** no subdiretório **unix** contendo a frase "*Este arquivo*".
 1. Usando o arquivo **arquivo2** contido no diretório **minicursos** como base, gere um arquivo de nome **tabulado.txt** no subdiretório **unix**, contendo o mesmo conteúdo de **arquivo2**, porém com separação de palavras por tabulação em vez de espaço.
+1. Considerando o arquivo apontado por **exemplo**, liste em ordem alfabética os comandos aprendidos no minicurso.
+1. Conte a quantidade de comandos identificados no item anterior.
 
 **Dica --** para executar o item 3, utilize o comando **tr**.
 
@@ -79,6 +81,8 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 1. Abra um editor de texto de sua preferência.
 1. Identifique o código de processo da instância aberta do editor de texto.
 1. Mate a instância aberta do editor de texto.
+1. Liste, em ordem alfabética e sem repetições, os usuários que têm processos ativos no sistema. 
+1. Conte a quantidade de processos ativos iniciados pelo usuário **root**.
 
 ### <a name="permissions">Permissões</a>
 
