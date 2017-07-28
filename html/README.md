@@ -6,6 +6,12 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 
 ---
 
+## Introdução
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PctAg6mAxYU" frameborder="0" allowfullscreen></iframe>
+
+---
+
 ## <a href="slides">Slides</a>
 
 Os slides que descrevem brevemente os comandos apresentados neste minicurso podem ser vistos abaixo, ou baixados [neste link](../keynote/handouts.pdf).
