@@ -16,7 +16,10 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 ## <a href="slides">Slides</a>
 
 Os slides que descrevem brevemente os comandos apresentados neste minicurso podem ser vistos abaixo, ou baixados [neste link](../keynote/handouts.pdf).
-<iframe src="//slides.com/leobezerra/deck/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<!-- <iframe src="//slides.com/leobezerra/deck/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='//slides.com/leobezerra/deck/embed' frameborder='0' allowfullscreen></iframe></div>
+
+## Orientações gerais
 
 ---
 
