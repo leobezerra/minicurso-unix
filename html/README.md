@@ -35,6 +35,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 
 [Voltar para os slides](#slides)
 
+---
+
 ### <a name="files">Arquivos</a>
 
 1. Com o auxílio de um editor de texto, crie dois arquivos de nome **arquivo1.txt** e **arquivo2**, contendo, respectivamente, as frases "*Este é o arquivo 1.*" e "*Este é o arquivo 2.*".
@@ -44,6 +46,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 1. Renomeie o arquivo **arquivo2** contido no subdiretório **unix** para **nao-vazio**.
 
 [Voltar para os slides](#slides)
+
+---
 
 ### <a name="streams">Arquivos e fluxos</a>
 
@@ -55,6 +59,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 1. Gere um arquivo **mini-exemplo2.txt** idêntico ao arquivo **mini-exemplo.txt** sem usar os comandos **cp**, **mv**, **head**, **tail** ou um editor de texto. Assegure que os arquivos sejam idênticos sem usar um editor de texto.
 
 [Voltar para os slides](#slides)
+
+---
 
 ### <a name="compression">Compressão de arquivos</a>
 
@@ -71,6 +77,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 
 [Voltar para os slides](#slides)
 
+---
+
 ### <a name="seeking">Busca</a>
 
 1. Busque no arquivo exemplo as palavras "*teste*" e "*testa*", sem usar um editor de texto.
@@ -82,6 +90,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 **Dica --** para executar o item 5, utilize o comando **xargs**.
 
 [Voltar para os slides](#slides)
+
+---
 
 ### <a name="manip">Manipulação de fluxos</a>
 
@@ -95,6 +105,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 
 [Voltar para os slides](#slides)
 
+---
+
 ### <a name="processes">Processos</a>
 
 1. Abra um editor de texto de sua preferência.
@@ -105,6 +117,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 
 [Voltar para os slides](#slides)
 
+---
+
 ### <a name="permissions">Permissões</a>
 
 1. Crie um arquivo de nome **arquivo_restrito** e configure suas permissões para que ninguém possa utilizá-lo para leitura, escrita ou execução. Verifique se você consegue realizar alguma destas operações.
@@ -112,6 +126,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 1. Altere as permissões do diretório **dir_restrito** para que seu proprietário (você) possa navegá-lo, mas não possa criar arquivos nele.
 
 [Voltar para os slides](#slides)
+
+---
 
 ### <a name="running">Executáveis</a>
 
