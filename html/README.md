@@ -14,6 +14,8 @@ Abaixo você encontrará a descrição de uma série de tarefas triviais present
 
 Os slides que resumem os comandos mais utilizados do UNIX por tópico estão disponíveis [neste link](../keynote/handouts.pdf).
 
+<iframe src="//slides.com/leobezerra/deck/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a tabela de comandos úteis encontrada neste [link](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/).
 
 ---
