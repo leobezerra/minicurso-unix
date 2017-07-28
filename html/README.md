@@ -6,11 +6,10 @@ Caso tenha dúvida na utilização de algum comando, consulte seu manual ou a ta
 
 ---
 
-Os slides que resumem os comandos mais utilizados do UNIX por tópico estão disponíveis [neste link](../keynote/handouts.pdf).
+Os slides que descrevem brevemente os comandos apresentados neste minicurso podem ser vistos abaixo, ou baixados [neste link](../keynote/handouts.pdf).
 
-<a href="slides">
+<a href="slides">&nbsp;</a>
 <iframe src="//slides.com/leobezerra/deck/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</a>
 
 Utilize os links abaixo para navegar pelos exercícios.
 
