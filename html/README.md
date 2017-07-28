@@ -19,7 +19,7 @@ Os slides que descrevem brevemente os comandos apresentados neste minicurso pode
 
 ---
 
-## Índice 
+# Exercícios 
 
 Utilize os links abaixo para navegar pelos exercícios.
 
