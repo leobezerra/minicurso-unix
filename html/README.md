@@ -43,6 +43,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 1. Copie o arquivo **arquivo2** para o subdiretório **unix**.
 1. Renomeie o arquivo **arquivo2** contido no subdiretório **unix** para **nao-vazio**.
 
+[Voltar para os slides](#slides)
+
 ### <a name="streams">Arquivos e fluxos</a>
 
 1. Baixe o arquivo [exemplo.in](../files/exemplo.in).
@@ -51,6 +53,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 1. Sem usar um editor de texto, copie as 5 primeiras linhas do arquivo apontado por **exemplo** para um novo arquivo **mini-exemplo.txt**, que deve ser criado dentro do subdiretório **unix**.
 1. Sem usar um editor de texto, adicione as 5 últimas linhas do arquivo apontado por **exemplo** ao arquivo **mini-exemplo.txt**.
 1. Gere um arquivo **mini-exemplo2.txt** idêntico ao arquivo **mini-exemplo.txt** sem usar os comandos **cp**, **mv**, **head**, **tail** ou um editor de texto. Assegure que os arquivos sejam idênticos sem usar um editor de texto.
+
+[Voltar para os slides](#slides)
 
 ### <a name="compression">Compressão de arquivos</a>
 
@@ -65,6 +69,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 
 **Dica --** para ver o tamanho de um arquivo, use uma das opções do comando **ls**. Para ver o tamanho de um diretório, consulte o manual do comando **du**.
 
+[Voltar para os slides](#slides)
+
 ### <a name="seeking">Busca</a>
 
 1. Busque no arquivo exemplo as palavras "*teste*" e "*testa*", sem usar um editor de texto.
@@ -74,6 +80,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 1. Busque, em todas as ocorrências encontradas no item acima, a palavra "*Este*".
 
 **Dica --** para executar o item 5, utilize o comando **xargs**.
+
+[Voltar para os slides](#slides)
 
 ### <a name="manip">Manipulação de fluxos</a>
 
@@ -85,6 +93,8 @@ Utilize os links abaixo para navegar pelos exercícios.
 
 **Dica --** para executar o item 3, utilize o comando **tr**.
 
+[Voltar para os slides](#slides)
+
 ### <a name="processes">Processos</a>
 
 1. Abra um editor de texto de sua preferência.
@@ -93,15 +103,21 @@ Utilize os links abaixo para navegar pelos exercícios.
 1. Liste, em ordem alfabética e sem repetições, os usuários que têm processos ativos no sistema. 
 1. Conte a quantidade de processos ativos iniciados pelo usuário **root**.
 
+[Voltar para os slides](#slides)
+
 ### <a name="permissions">Permissões</a>
 
 1. Crie um arquivo de nome **arquivo_restrito** e configure suas permissões para que ninguém possa utilizá-lo para leitura, escrita ou execução. Verifique se você consegue realizar alguma destas operações.
 1. Crie um diretório de nome **dir_restrito** e configure suas permissões para que ninguém possa visualizar seu conteúdo. Verifique se você consegue visualizar seu conteúdo após esta operação.
 1. Altere as permissões do diretório **dir_restrito** para que seu proprietário (você) possa navegá-lo, mas não possa criar arquivos nele.
 
+[Voltar para os slides](#slides)
+
 ### <a name="running">Executáveis</a>
 
 1. Baixe o arquivo [exemplo.sh](../files/exemplo.sh). Configure suas permissões para que você possa executá-lo. Teste sua execução.
 1. Configure a variável **PATH** para poder executar o script acima sem precisar digitar seu caminho. Faça esta configuração de forma que apenas a sessão em uso do terminal tenha sua configuração alterada.
 1. Inicie uma nova sessão do terminal (nova aba ou janela) e configure a variável **PATH** para poder executar o script acima sem precisar digitar seu caminho, mas de forma que qualquer nova sessão do terminal seja afetada. Teste esta configuração na tela já em uso do terminal e também em uma nova janela.
+
+[Voltar para os slides](#slides)
 
