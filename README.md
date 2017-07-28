@@ -5,6 +5,8 @@
 
 # Bem vindo!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EkEvjND2oQc" frameborder="0" allowfullscreen></iframe>
+
 Este minicurso foi pensado para ajudar quem precisa de sistemas UNIX no dia a dia. 
 
 O minicurso consiste de um roteiro prático de exercícios e de slides de consulta.
